@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:white;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    height: 100vw;
+    transition: transform 0.3s ease-in;
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+  list-style: none;
+  padding:35 px 0 ;
+  margin: 40px;
+}
+.main{
+    width: 85vw;
+}
+.infocontainer{
+    background-color:bisque;
+    height: 60vh;
+    width: 85vw;
+    margin: 90px 2px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0fr;
+    align-items: right;
+    margin-left: 150px;
+}
+.devpic img{
+    width: 340px;
+    height: 445px;
+    float: right;
+    margin-right: 10px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+  padding: 12px 0;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+.rangeslider h2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color:dodgerblue;
+}
+.button{
+    margin-top: 34px;
+}
+.btn-sm{
+    font-size: 12px;
+}
+.container{
+    background-image: url("background.png");
+}
+#emailHelp{
+    color: brown;
+}
+.mainn{
+    background-color: gainsboro
+}
+.blogcontainer{
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+.blogcontainer h1{
+    margin-left: 30%;
+    color:rgba(0, 0, 0, 0.405);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blogitem{
+    margin-top: 20px;
+    margin-bottom: 9px;
+    margin-left: 16px;
+}
+.blogitem p{
+    text-decoration-style: dashed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.myslider {
+    background: #FCF3CF  ;
+    width: 50%;
+    height: 20px;
+   
+   }
+   .skill h1{
+    left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+   }
+.submit{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+.sanu{
+    margin-top: 28px;
+    margin-left: 50px;
+  
+
+}
+.infocontainar h1{
+    color: white;
+}
+
+.mai{
+background-color: grey;
+width: 100%;
+}
+.infocontainar h1{
+  margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.infocontainar{
+    margin-top: 50px;
+    margin-left: 60px;
+
+}
+.skillitem{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.skill{
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+.skill1{
+    background-color: #FCF3CF;
+    width: 50%;
+    height: 15px;
+}
+.skill2{
+    background-color:blueviolet;
+    width: 50%;
+    height: 15px;
+}
+.skill3{
+    background-color:rosybrown;
+    width: 50%;
+    height: 15px;
+}
+.skill4{
+    background-color:darkolivegreen;
+    width: 28%;
+    height: 15px;
+}
+.skill5{
+    background-color:khaki;
+    width: 50%;
+    height: 15px;
+}
+.skill6{
+    background-color:lightpink;
+    width: 30%;
+    height: 15px;
+}
+.skill7{
+    background-color: aqua;
+    width: 10%;
+    height: 15px;
+}
+.skill8{
+    background-color: aqua;
+    width: 45%;
+    height: 15px;
+}
+.ham{
+    color: white;
+}
+.cross{
+    color: white;
+    margin-left: 160px;
+}
+.hamburger{
+   cursor: pointer;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.button{
+    margin-top: 60px;
+}
+.buttn{
+    margin-top: 15px;
+    margin-left: 20%;
+    width: 50px;
+    height: 25px;
+    background-color: aqua;
+}
+.table{
+    margin-left: 20%;
+    margin-top: 25%;
+}
+
+.containerrr{
+    display: flex;
+  
+}
+.heading{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.row{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.col{
+    width: 150px;
+    height: 50px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
